@@ -1,0 +1,31 @@
+footer {
+    background-color: var(--jua-color-white);
+}
+
+.footer-content {
+    height: 100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: var(--son-padding-s) var(--son-padding-m);
+}
+
+.footer-content li {
+    font-size: var(--son-font-s);
+}
+
+.footer-content > .social > li{
+    text-align: start;
+}
+
+.footer-content > .about > li{
+    text-align: end;
+}
+
+.footer-content > ul:first-child > li:first-child {
+    font-weight: bolder;
+    font-size: var(--son-font-m);
+    font-family: "Josefin Sans", Impact, 'Arial Narrow Bold', sans-serif;
+}

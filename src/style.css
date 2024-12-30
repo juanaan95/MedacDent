@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-align: center;
+  font-size: var(--jua-font-m);
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--jua-color-font);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--jua-color-white);
+  position: relative;
+}
+
+h1, h1 > *{
+  font-size: var(--jua-font-xl);
+  font-family: "Josefin Sans", Impact, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+}
+
+:root {
+  /* COLORS */
+  --jua-color-white: #FFFFFF;
+  --jua-color-bg1: #f4f4f4;
+  --jua-color-bg2: #b4ffbf;
+  --jua-color-bg3: #ffbb80;
+  --jua-color-bg4: #ff8080;
+  --jua-color-black: #000000;
+  --jua-color-font: var(--jua-color-black);
+  --jua-color-border: #a8a8a8;
+
+  /* FONT SIZES */
+  --jua-font-xxxl: 50px;
+  --jua-font-xl: 36px;
+  --jua-font-l: 24px;
+  --jua-font-m: 16px;
+  --jua-font-s: 14px;
+  --jua-font-xs: 10px;
+
+  /* SPACINGS */
+
+  /* RADIUS */
+  --jua-radius-primary: 20px;
+  --jua-radius-secundary: 10px;
+  --jua-radius-buttons: 5px;
+
+  /* PADDING */
+  --jua-padding-xs: 5px;
+  --jua-padding-s: 10px;
+  --jua-padding-m: 20px;
+  --jua-padding-l: 30px;
+  --jua-padding-xl: 40px;
+  --jua-padding-xxl: 60px;
+  --jua-padding-xxxl: 80px;
+
+  /* MARGIN */
+  --jua-margin-xs: 5px;
+  --jua-margin-s: 10px;
+  --jua-margin-m: 20px;
+  --jua-margin-l: 30px;
+  --jua-margin-xl: 40px;
+
+  /* GAP */
+  --jua-gap-s: 10px;
+  --jua-gap-m: 15px;
+  --jua-gap-l: 20px;
+  --jua-gap-xl: 30px;
+}
+
+/*! @media (max-width: 750px) { */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

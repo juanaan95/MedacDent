@@ -1,0 +1,42 @@
+main {
+    min-height: 80svh;
+    background-color: var(--jua-color-bg1);
+    padding-top: var(--jua-padding-l);
+}
+
+.divTabla {
+    background-color: var(--jua-color-white);
+    padding: var(--jua-padding-l);
+    padding-top: var(--jua-padding-xs);
+    border-radius: var(--jua-radius-secundary);
+}
+
+.divTabla .headerCitas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divTabla .headerCitas h2 {
+    padding: var(--jua-padding-m) var(--jua-padding-s);
+    text-align: left;
+    font-weight: bolder;
+    font-size: var(--jua-font-l);
+    color: var(--jua-color-black);
+}
+
+.divTabla .headerCitas button {
+    padding: var(--jua-padding-xs) var(--jua-padding-s);
+    border: none;
+    background-color: var(--jua-color-bg1);
+    border-radius: var(--jua-radius-buttons);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-weight: 600;
+
+}
+
+.divTabla .headerCitas button:hover {
+    background-color: var(--jua-color-bg2);
+
+}

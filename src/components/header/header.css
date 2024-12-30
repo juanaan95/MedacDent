@@ -1,0 +1,35 @@
+header {
+    background-color: var(--jua-color-white);
+}
+
+.header-content {
+    height: 80px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: var(--son-padding-s) var(--son-padding-m);
+}
+
+.logoTittle {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logoTittle > img {
+    height: 40px
+}
+
+.logoTittle > h1 {
+    padding-top: 10px;
+}
+
+h3 {
+    font-size: var(--son-font-l);
+    font-family: "Josefin Sans", Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}

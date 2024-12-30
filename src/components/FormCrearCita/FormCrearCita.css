@@ -1,0 +1,119 @@
+.formBg {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formDiv {
+  background-color: var(--jua-color-white);
+  padding: var(--jua-padding-l);
+  border-radius: var(--jua-radius-primary);
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.formDiv h2 {
+  font-size: var(--jua-font-l);
+  font-weight: bold;
+  padding: var(--jua-padding-s);
+}
+
+.fieldForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: var(--jua-padding-s);
+}
+  
+.fieldForm input, .fieldForm textarea {
+  border: 2px solid var(--jua-color-border);
+  border-radius: var(--jua-radius-secundary);
+  width: 100%;
+  text-align: left;
+  padding-left: var(--jua-padding-s);
+  outline: none;
+}
+
+.fieldForm textarea {
+  resize: none;
+  padding-top: var(--jua-padding-xs);
+}
+
+.fieldForm input {
+  height: 28px;
+}
+
+.fieldForm label {
+  font-size: var(--jua-font-m);
+  font-weight: 600;
+  padding-left: var(--jua-padding-s);
+}
+
+.dateCita {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.dateCita div:first-child{
+  width: 80%;
+}
+
+.dateCita div:last-child{
+  width: 15.5%;
+}
+
+.formDiv .divButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--jua-gap-m);
+  padding-top: var(--jua-padding-l);
+}
+
+.formDiv button {
+  padding: var(--jua-padding-xs) var(--jua-padding-s);
+  border: none;
+  background-color: var(--jua-color-bg1);
+  border-radius: var(--jua-radius-buttons);
+  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid var(--jua-color-border);
+  border-radius: var(--jua-radius-secundary);
+}
+
+.formDiv button:first-child:hover {
+  background-color: var(--jua-color-bg3);
+}
+
+.formDiv button:hover {
+  background-color: var(--jua-color-bg2);
+}
+
+.formDiv .exitButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: var(--jua-radius-secundary);
+  padding: var(--jua-padding-xs);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 18px;
+  font-weight: bolder;
+  font-size: var(--jua-font-m);
+}
+
+.formDiv .exitButton:hover {
+  background-color: var(--jua-color-bg4);
+}

@@ -1,0 +1,56 @@
+.tabla-citas {
+    width: 100%;
+    border-collapse: collapse; 
+    background-color: var(--jua-color-white); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+.tabla-citas thead {
+    background-color: var(--jua-color-bg1);
+}
+
+.tabla-citas th {
+    padding: var(--jua-padding-s) var(--jua-padding-m); 
+    text-align: left; 
+    font-weight: bold; 
+    font-size: var(--jua-font-m);
+}
+
+.tabla-citas td {
+    padding: var(--jua-padding-s) var(--jua-padding-m); 
+    text-align: left; 
+    font-size: var(--jua-font-s);
+    border-top: 1px solid var(--jua-color-bg1); 
+}
+
+.tabla-citas tbody tr:first-child td {
+    border-top: none;
+}
+
+.tabla-citas tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tabla-citas tbody tr:hover, .tabla-citas tbody tr:hover .delMod > button {
+    background-color: var(--jua-color-bg1); 
+}
+
+.delMod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--jua-gap-s);
+}
+
+.delMod > button {
+    background-color: var(--jua-color-white);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.delMod > button:hover {
+    transform: scale(1.2);
+}
