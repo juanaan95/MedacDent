@@ -76,7 +76,7 @@ export const showCitas = () => {
     } else {
         const tr = document.createElement("tr")
         const td = document.createElement("td");
-        td.colSpan = 8;
+        td.colSpan = 9;
         td.textContent = "Dato vacío";
         td.style.textAlign = "center"
         td.style.fontSize = "18px"
